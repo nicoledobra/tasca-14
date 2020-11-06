@@ -1,0 +1,12 @@
+def menu():
+    print "Menu"
+    print "1. Play game"
+    print "2. History of games"
+    print "3. Exit"
+    pos = raw_input("Choose option: ")
+    while not(int(pos)>=1 and int(pos)<=3):
+        print "Opcio incorrecta"
+        pos = raw_input("Choose option: ")
+    return pos
+    
+
