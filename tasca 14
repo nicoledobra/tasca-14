@@ -9,7 +9,7 @@ def menu():
     pos = raw_input("Choose option: ")
     while not(pos>=1 and pos<=3):
         return pos
-    pos = raw_input("Choose option: "
+    pos = raw_input("Choose option: ")
     if pos=="1":
    	    print "Choose option: ", pos
        	print a
